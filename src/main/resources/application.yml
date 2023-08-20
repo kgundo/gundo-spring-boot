@@ -1,0 +1,18 @@
+# Spring Bootアプリケーションの設定
+spring:
+  application:
+    name: GundoSpringBootApplication
+
+# サーバー設定
+server:
+  port: 8080
+
+# ログ設定
+logging:
+  level:
+    root: info  # ルートロガーのログレベル
+    com.example: debug  # 特定のパッケージのログレベル
+
+# その他のカスタム設定
+custom:
+  property: value
